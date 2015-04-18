@@ -37,6 +37,10 @@ gem 'devise', '>= 3.2.4'
 #gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap'
 
+gem "geocoder"
+
+gem "figaro", ">= 1.0.0"
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
