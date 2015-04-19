@@ -1,5 +1,5 @@
 class NotificationMailer < ActionMailer::Base
-  default from: "seng.lee.ngo@gmail.com"
+  default from: "no-reply@nomsterapp.com"
 
   def comment_added
     mail(to: "sengngo@gmail.com",
