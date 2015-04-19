@@ -19,6 +19,10 @@
 	    </blockquote>
 	  </div>
 <% end %>
+	<br />
+	<% if place.photos.present? %>	
+		<%= link_to image_tag(place.photos.first.picture, :class => 'img-thumbnail index-image'), place_path(place)  %>
+	<% end %>
   </div>
 <% end %>
 
