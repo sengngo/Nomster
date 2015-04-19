@@ -43,6 +43,8 @@ gem "figaro", ">= 1.0.0"
 
 gem 'carrierwave'
 
+gem 'fog', "~> 1.3.1"
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
