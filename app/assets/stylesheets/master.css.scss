@@ -1,3 +1,7 @@
+@-ms-view{
+width: device-width;
+}
+
 /* -----------------Main--------------- */
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -70,7 +74,7 @@ body {
 
 .carousel-caption {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight:100;
     text-shadow: rgba(0,0,0,0.95) 2px 2px;
     background-color: rgba(0,0,0,0.5);
